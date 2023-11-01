@@ -30,5 +30,15 @@ public class ButtonScript : MonoBehaviour
         SceneManager.LoadScene("StartScene");
     }
 
+    public void PrimzahlenV2()
+    {
+        SceneManager.LoadScene("PrimzahlenV2");
+    }
+
+    public void DeletablePrimes()
+    {
+        SceneManager.LoadScene("DeletablePrime");
+    }
+
 
 }

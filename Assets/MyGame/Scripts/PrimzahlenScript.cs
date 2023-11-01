@@ -16,6 +16,7 @@ public class PrimzahlenScript : MonoBehaviour
     private int rounds = 0;
     private int score = 0;
 
+
     private void Start()
     {
         yesButton.onClick.AddListener(CheckIsPrime);
@@ -110,4 +111,5 @@ public class PrimzahlenScript : MonoBehaviour
         yield return new WaitForSeconds(delayInSeconds);
         GenerateRandomNumber();
     }
+
 }

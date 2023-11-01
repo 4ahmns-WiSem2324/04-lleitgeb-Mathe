@@ -73,16 +73,31 @@ public class RechenartenScript : MonoBehaviour
         number1 = UnityEngine.Random.Range(1, 101);
         number2 = UnityEngine.Random.Range(1, Mathf.Max(101 - number1, 2));
 
-        if (UnityEngine.Random.Range(0, 2) == 0)
+        int randomNum = Random.Range(0, 4);
+
+        if (randomNum == 0)
         {
             correctAnswer = number1 + number2;
             equationText.text = number1 + " + " + number2 + " = ";
         }
-        else
+        else if(randomNum == 1)
         {
             correctAnswer = number1 - number2;
             equationText.text = number1 + " - " + number2 + " = ";
         }
+        else if(randomNum == 2)
+        {
+            correctAnswer = number1 / number2;
+            equationText.text = number1 + " ÷ " + number2 + " = ";
+        }
+        else
+        {
+            correctAnswer = number1 * number2;
+            equationText.text = number1 + " * " + number2 + " = ";
+        }
+
+
+
 
         answerInput.text = "";
         resultText.text = "";

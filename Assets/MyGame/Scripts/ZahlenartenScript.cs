@@ -85,7 +85,7 @@ public class ZahlenartenScript : MonoBehaviour
                 selectedType = NumberType.RationalNumber;
             }
 
-            if (selectedType == correctType)
+            if ((selectedType == correctType || selectedType == NumberType.NaturalNumber || selectedType == NumberType.WholeNumber))
             {
                 score++;
                 numberText.text = "Richtig!";

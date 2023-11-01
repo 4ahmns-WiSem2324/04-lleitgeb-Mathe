@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MyGame/Scenes/Teilbarkeitsregeln.unity
     guid: 3c172a29c3241604c8800f3b3df45287
+  - enabled: 1
+    path: Assets/MyGame/Scenes/PrimzahlenV2.unity
+    guid: 8a369ab5052e7ba40b1c0d1b7ffccf90
+  - enabled: 1
+    path: Assets/MyGame/Scenes/DeletablePrime.unity
+    guid: cd4a7fcdefbd92d4aac266f042ca63a2
   m_configObjects: {}

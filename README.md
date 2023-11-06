@@ -41,3 +41,10 @@ Der Benutzer wird mit mathematischen Aufgaben konfrontiert und muss die richtige
 Im Teilbarkeitsregeln-Modus kann der Benutzer:
 
 - **Eine zufällige Zahl sehen und entscheiden, durch welche Zahl sich diese teilen lässt**.
+
+- ## Play-Through Video
+- 
+
+https://github.com/4ahmns-WiSem2324/04-lleitgeb-Mathe/assets/114598328/4a932eaa-ea86-4da4-a4d7-86e9097c1042
+
+
